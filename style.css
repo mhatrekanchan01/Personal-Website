@@ -1,0 +1,137 @@
+/* 
+  DO NOT EDIT THIS BLOCK OF CSS CODE 
+
+  -> ADD YOUR NESTED CSS AT THE BOTTOM
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Permanent+Marker');
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+h1, h2, p {
+  color: DarkRed;
+  font-size: 14px;
+}
+
+header h1 {
+  color: #7B3B3B;
+}
+
+main div header h2 {
+  color: #668284;
+  font-size: 24px;
+}
+
+main div p {
+  font-size: 16px;
+}
+
+main div  {
+  color: #668284;
+  font-size: 24px;
+}
+
+main div header h2 , 
+main div p, 
+footer div nav p {
+  text-align: center;
+}
+
+h1,
+ul,
+nav > p {
+  margin: 0;
+  padding: 10px;
+}
+
+header,
+nav,
+main,
+footer {
+  font-family: 'Oswald', sans-serif;
+}
+
+header div h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+header div nav {
+  margin: 0 0 10px 10px;
+}
+
+header div nav a {
+  padding: 0 15px 10px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #493736;
+}
+
+header div nav a:hover {
+  color: #668284;
+}
+
+nav,
+div {
+  width: 300px;
+  margin: auto;
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main div p {
+  color: #493736;
+}
+
+main div {
+  border: 3px solid #668284;
+  padding: 10px;
+  background-color: #B9D7D9;
+}
+
+main div:first-of-type {
+  border-bottom: none;
+}
+
+footer nav p {
+  color: #668284;
+}
+
+/* 
+     Add your nested CSS styles below here: 
+*/
+
+
+/* #1: Change the color of the body to: #fff8ef (light yellow) */
+
+
+
+
+
+/* #2: Change the color of the logo to: #ea570e (orange) */
+
+
+
+
+
+/* #3: Of the [main > div], change 
+        * The background color to: #FBC200 (yellow)
+        * The border to:3 pixels, solid, #FB9800 (orange)
+*/
+
+
+
+
+/* #4: Of the [main > div > footer], change the paragraphs to #FF7F01 (bright orange)
+*/
+
+
