@@ -1,1 +1,75 @@
 
+header {
+  height: 250px; /* Brings item to the center*/
+  background-color: #333; /* background color to header*/
+  width: auto;
+} 
+header h1{
+  font-family: 'Quattrocento Sans', sans-serif;
+  padding: 100px 50px 0 50px;
+  color: #FAE37D;
+  text-align: center;
+}
+.image{
+  float: left; /* Brings image to left*/
+  width: 30%;
+  border-radius: 100%;
+  margin:150px 0px;
+  padding: 20px;
+ 
+}
+#grad {
+  background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,1)); /* gradient for opaque to transparent*/
+}
+#padding-p{
+  padding: 70px 0 20px 0;
+}
+body {
+	background-color: #EEEEE6;
+}
+main {
+  max-height: 200px;
+  padding: 20px;
+}
+.text-container{
+  font-family: 'Edu NSW ACT Foundation', sans-serif;
+  color: #7B886F; 
+  width: auto;
+  padding: 70px 0 10 0;
+  text-align: center;
+  margin: auto;
+  position: sticky;
+}
+ul{
+  text-align: center;
+  list-style-type: none; /* removes numbering*/
+  margin: 0;
+  padding: 0;
+  
+}
+
+footer {
+  width: 600px;
+  margin: 0;
+  height: 400px;
+  padding: 100px;
+} 
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.5;
+}
+
+nav a {
+  color: #f2f2f2;
+  padding: 14px 100px;
+  text-decoration: none; /* removes any underline/bold/italics*/
+  font-size: 25px
+  display: flex;
+  
+}
+
