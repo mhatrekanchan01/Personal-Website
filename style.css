@@ -37,7 +37,14 @@ main {
   text-align: center;
   position: relative;
 }
-ol, ul{
+ol{
+  text-align: center;
+  list-style-type: none; /* removes numbering*/
+  margin: 0;
+  padding: 0;
+}
+
+ul{
   text-align: center;
   list-style-type: none; /* removes numbering*/
   margin: 0;
