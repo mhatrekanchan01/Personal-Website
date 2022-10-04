@@ -42,7 +42,6 @@ ol, ul{
   list-style-type: none; /* removes numbering*/
   margin: 0;
   padding: 0;
-  
 }
 .center {
 display: flex;
