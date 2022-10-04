@@ -37,7 +37,7 @@ main {
   text-align: center;
   position: relative;
 }
-ol{
+ol, ul{
   text-align: center;
   list-style-type: none; /* removes numbering*/
   margin: 0;
